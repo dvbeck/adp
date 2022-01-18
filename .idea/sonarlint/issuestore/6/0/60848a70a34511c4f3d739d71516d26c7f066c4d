@@ -1,0 +1,94 @@
+
+U
+java:S1118":Add a private constructor to hide the implicit public one.(“³±ûÿÿÿÿ
+v
+java:S3008"[Rename this field "DATASET_SORTEREN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£àº¿şÿÿÿÿ
+W
+java:S1118":Add a private constructor to hide the implicit public one.(²‹ƒÂ8Ÿ°¹õã/
+}
+java:S3008
+"bRename this field "SORTEER_LIJST_AFLOPEND2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”šŞùÿÿÿÿ
+w
+java:S3008"bRename this field "SORTEER_LIJST_OPLOPEND2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óë£F
+y
+java:S3008"^Rename this field "SORTEER_LIJST_FLOAT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ó‘ìûÿÿÿÿ
+…
+java:S3008"iRename this field "SORTEER_LIJST_SORTED_AFLOPEND3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¶l8¶¾§õã/
+‹
+java:S3008"iRename this field "SORTEER_LIJST_SORTED_OPLOPEND3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ùÓ üÿÿÿÿ8€¨õã/
+}
+java:S3008"aRename this field "SORTEER_LIJST_HERHAALD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íœq8Íµ©õã/
+z
+java:S3008"]Rename this field "SORTEER_LIJST_LEEG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó äŸ8ÈÃªõã/
+
+java:S3008"_Rename this field "SORTEER_LIJST_NULL_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éüæıÿÿÿÿ8¼«õã/
+|
+java:S3008"_Rename this field "SORTEER_LIJST_NULL_3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï‚ÄÚ8é¬õã/
+ƒ
+java:S3008"fRename this field "SORTEER_LIJST_ONSORTEERBAAR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÏô“8Öì°õã/
+„
+java:S3008"gRename this field "SORTEER_LIJST_OPLOPEND_10000" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†çÑÀ8é ³õã/
+Œ
+java:S3008"jRename this field "SORTEER_LIJST_WILLEKEURIG_10000" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ÉÖÖøÿÿÿÿ8¤Û´õã/
+ˆ
+java:S3008"fRename this field "SORTEER_LIJST_WILLEKEURIG_3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì¯Óûÿÿÿÿ8´œ¶õã/
+\
+java:S1118":Add a private constructor to hide the implicit public one.(ÁÜ‚¹úÿÿÿÿ8¼Ú·õã/
+w
+java:S1104"\Make DATASET_SORTEREN a static final constant or non-public and provide accessors if needed.(£àº¿şÿÿÿÿ
+~
+java:S1104
+"cMake SORTEER_LIJST_AFLOPEND2 a static final constant or non-public and provide accessors if needed.(”šŞùÿÿÿÿ
+x
+java:S1104"cMake SORTEER_LIJST_OPLOPEND2 a static final constant or non-public and provide accessors if needed.(óë£F
+z
+java:S1104"_Make SORTEER_LIJST_FLOAT a static final constant or non-public and provide accessors if needed.(½Ó‘ìûÿÿÿÿ
+†
+java:S1104"jMake SORTEER_LIJST_SORTED_AFLOPEND3 a static final constant or non-public and provide accessors if needed.(Ë¶l8»¾§õã/
+Œ
+java:S1104"jMake SORTEER_LIJST_SORTED_OPLOPEND3 a static final constant or non-public and provide accessors if needed.(¤ùÓ üÿÿÿÿ8„€¨õã/
+~
+java:S1104"bMake SORTEER_LIJST_HERHAALD a static final constant or non-public and provide accessors if needed.(íœq8Ñµ©õã/
+{
+java:S1104"^Make SORTEER_LIJST_LEEG a static final constant or non-public and provide accessors if needed.(ó äŸ8ĞÃªõã/
+‚
+java:S1104"`Make SORTEER_LIJST_NULL_1 a static final constant or non-public and provide accessors if needed.(Éüæıÿÿÿÿ8Á«õã/
+}
+java:S1104"`Make SORTEER_LIJST_NULL_3 a static final constant or non-public and provide accessors if needed.(Ï‚ÄÚ8ñ¬õã/
+„
+java:S1104"gMake SORTEER_LIJST_ONSORTEERBAAR a static final constant or non-public and provide accessors if needed.(ÇÏô“8Ûì°õã/
+…
+java:S1104"hMake SORTEER_LIJST_OPLOPEND_10000 a static final constant or non-public and provide accessors if needed.(†çÑÀ8ï ³õã/
+
+java:S1104"kMake SORTEER_LIJST_WILLEKEURIG_10000 a static final constant or non-public and provide accessors if needed.(¯ÉÖÖøÿÿÿÿ8ªÛ´õã/
+‰
+java:S1104"gMake SORTEER_LIJST_WILLEKEURIG_3 a static final constant or non-public and provide accessors if needed.(Ì¯Óûÿÿÿÿ8¸œ¶õã/
+Q
+java:S1444"6Make this "public static DATASET_SORTEREN" field final(£àº¿şÿÿÿÿ
+X
+java:S1444
+"=Make this "public static SORTEER_LIJST_AFLOPEND2" field final(”šŞùÿÿÿÿ
+R
+java:S1444"=Make this "public static SORTEER_LIJST_OPLOPEND2" field final(óë£F
+T
+java:S1444"9Make this "public static SORTEER_LIJST_FLOAT" field final(½Ó‘ìûÿÿÿÿ
+`
+java:S1444"DMake this "public static SORTEER_LIJST_SORTED_AFLOPEND3" field final(Ë¶l8»¾§õã/
+f
+java:S1444"DMake this "public static SORTEER_LIJST_SORTED_OPLOPEND3" field final(¤ùÓ üÿÿÿÿ8…€¨õã/
+X
+java:S1444"<Make this "public static SORTEER_LIJST_HERHAALD" field final(íœq8Òµ©õã/
+U
+java:S1444"8Make this "public static SORTEER_LIJST_LEEG" field final(ó äŸ8ÒÃªõã/
+\
+java:S1444":Make this "public static SORTEER_LIJST_NULL_1" field final(Éüæıÿÿÿÿ8Ä«õã/
+W
+java:S1444":Make this "public static SORTEER_LIJST_NULL_3" field final(Ï‚ÄÚ8ó¬õã/
+^
+java:S1444"AMake this "public static SORTEER_LIJST_ONSORTEERBAAR" field final(ÇÏô“8æì°õã/
+_
+java:S1444"BMake this "public static SORTEER_LIJST_OPLOPEND_10000" field final(†çÑÀ8ñ ³õã/
+g
+java:S1444"EMake this "public static SORTEER_LIJST_WILLEKEURIG_10000" field final(¯ÉÖÖøÿÿÿÿ8¬Û´õã/
+c
+java:S1444"AMake this "public static SORTEER_LIJST_WILLEKEURIG_3" field final(Ì¯Óûÿÿÿÿ8¹œ¶õã/
