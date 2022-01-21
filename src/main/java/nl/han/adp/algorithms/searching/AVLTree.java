@@ -6,7 +6,7 @@ public class AVLTree<T extends Comparable<T>> extends BSTree<T> {
     @Override
     public void insert(T key) {
         super.insert(key);
-
+        System.out.println("test");
         findImbalance(root);
     }
 
