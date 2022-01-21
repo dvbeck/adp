@@ -3,6 +3,9 @@ package nl.han.adp.utility;
 public class Constants {
     public static class Files {
         public static String DATASET_SORTEREN = "dataset_sorteren.json";
+        public static String DATASET_HASHING = "dataset_hashing.json";
+        public static String DATASET_GRAPH = "dataset_grafen.json";
+
     }
 
     public static class Sorteren {
@@ -22,5 +25,17 @@ public class Constants {
         public static String SORTEER_LIJST_WILLEKEURIG_3 = "lijst_willekeurig_3";
     }
 
+    public static class Hashing {
+        public static String HASH_TABEL = "hashtabelsleutelswaardes";
+    }
 
+    public static class Graphs {
+        public static String LIJN_LIJST = "lijnlijst";
+        public static String VERBINDINGS_LIJST = "verbindingslijst";
+        public static String VERBINDINGS_MATRIX = "verbindingsmatrix";
+        public static String LIJN_LIJST_GEWOGEN = "lijnlijst_gewogen";
+        public static String VERBINDINGS_LIJST_GEWOGEN = "verbindingslijst_gewogen";
+        public static String VERBINDINGS_MATRIX_GEWOGEN = "verbindingsmatrix_gewogen";
+
+    }
 }

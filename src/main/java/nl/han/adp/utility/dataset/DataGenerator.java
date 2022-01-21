@@ -2,6 +2,7 @@ package nl.han.adp.utility.dataset;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.Random;
 import java.util.stream.IntStream;
 
@@ -22,13 +23,13 @@ public class DataGenerator {
 
     public static <T extends Comparable<T>> T[] sortCopyOfData(T[] data) {
         T[] ts = Arrays.copyOf(data, data.length);
-        Arrays.sort(ts);
+        Arrays.sort(ts, Comparator.nullsLast(Comparator.naturalOrder()));
         return ts;
     }
 
     public static <T extends Comparable<T>> T[] sortCopyOfDataDesc(T[] data) {
         T[] ts = Arrays.copyOf(data, data.length);
-        Arrays.sort(ts, Collections.reverseOrder());
+        Arrays.sort(ts, Comparator.nullsLast(Comparator.reverseOrder()));
         return ts;
     }
 }
