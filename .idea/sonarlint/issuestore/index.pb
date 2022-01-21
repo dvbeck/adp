@@ -67,10 +67,6 @@ i
 9src/main/java/nl/han/adp/datastructures/queue/IDeque.java,3\8\38b0890c1003f2ff54fe8c554d8039a7560a441b
 o
 ?src/main/java/nl/han/adp/algorithms/searching/BinarySearch.java,f\f\fffb79bd6acb81c7fe5b536ee5d1dc2818a434a3
-s
-Csrc/main/java/nl/han/adp/algorithms/searching/avl/AVLTreeUtils.java,1\c\1cfd0d54920f134cb6b8737d6a7fbd9e67841ab1
-k
-;src/main/java/nl/han/adp/algorithms/searching/avl/Node.java,e\e\eeb16ea8b529c2d2a3a33b995f9934087c07d939
 q
 Asrc/main/java/nl/han/adp/algorithms/searching/DijkstraSearch.java,c\7\c75cfa56fcb8252bd770bc8ca0dc7aae8004cc12
 h

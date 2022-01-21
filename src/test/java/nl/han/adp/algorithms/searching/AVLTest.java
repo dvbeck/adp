@@ -1,30 +1,21 @@
 package nl.han.adp.algorithms.searching;
 
-import nl.han.adp.algorithms.searching.avl.AVLTree;
-import nl.han.adp.algorithms.searching.avl.AVLTreeUtils;
-import nl.han.adp.algorithms.searching.avl.Node;
-import nl.han.adp.utility.dataset.DataGenerator;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
-import java.util.stream.Collectors;
+import org.junit.jupiter.api.Test;
 
 public class AVLTest {
     @Test
     void testAvl() {
-        AVLTree<Integer> tree = new AVLTree<>();
-        var data = Arrays.stream(DataGenerator.generateIntegerDataset(30000)).distinct().collect(Collectors.toList());
+        BinaryTree<Integer> tree = new AVLTree<>();
+        Integer[] data = {10, 1, 2, 3, 4, 11, 3, 12, 2, 13, 6, 14, 5, 3};
         for (Integer integer : data) {
             tree.insert(integer);
         }
 
-        for(Integer searchKey : data) {
-//            long count = Arrays.stream(data).filter(i -> i.equals(searchKey)).count();
-//            System.out.println(count);
-            Node<Integer> integerNode = tree.find(searchKey);
-            Assertions.assertNotNull(integerNode);
-        }
+
+        tree.delete(3);
+        tree.delete(6);
+        System.out.println("dsa");
 
     }
 

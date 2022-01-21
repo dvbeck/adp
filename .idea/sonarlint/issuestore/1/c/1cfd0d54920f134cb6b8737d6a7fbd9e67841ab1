@@ -1,11 +1,0 @@
-
-U
-java:S1118":Add a private constructor to hide the implicit public one.(“º›†üÿÿÿÿ
-W
-java:S1854":Remove this useless assignment to local variable "indent".(‹¸áõ8°§ûğå/
-W
-java:S1854":Remove this useless assignment to local variable "indent".(ª¡²Ö8ù€÷ğå/
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Éğ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Œ“¡Æıÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(üøŒ„ûÿÿÿÿ
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Âã¥8µ§ûğå/
