@@ -6,11 +6,10 @@ import nl.han.adp.assignments.datastructures.graph.Graph;
 import nl.han.adp.assignments.datastructures.graph.GraphImpl;
 import nl.han.adp.utility.Constants;
 import nl.han.adp.utility.DataSetUtils;
-import nl.han.adp.utility.dataset.JsonUtils;
+import nl.han.adp.utility.JsonUtils;
 import org.junit.jupiter.api.Test;
 import org.opentest4j.TestAbortedException;
 
-import java.lang.management.GarbageCollectorMXBean;
 import java.util.List;
 
 public class DijkstraTest {

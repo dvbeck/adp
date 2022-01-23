@@ -2,13 +2,11 @@ package nl.han.adp.assignments.datastructures;
 
 import nl.han.adp.assignments.datastructures.hashtable.Dictionary;
 import nl.han.adp.assignments.datastructures.hashtable.HashTable;
-import nl.han.adp.assignments.datastructures.list.DynamicArray;
-import nl.han.adp.assignments.datastructures.list.IList;
 import nl.han.adp.utility.Constants;
 import nl.han.adp.utility.DataSetUtils;
 import nl.han.adp.utility.Measurement;
-import nl.han.adp.utility.dataset.DataGenerator;
-import nl.han.adp.utility.dataset.JsonUtils;
+import nl.han.adp.utility.DataGenerator;
+import nl.han.adp.utility.JsonUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.opentest4j.TestAbortedException;

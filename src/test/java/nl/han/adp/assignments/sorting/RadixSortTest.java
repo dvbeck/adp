@@ -1,15 +1,10 @@
 package nl.han.adp.assignments.sorting;
 
 import nl.han.adp.assignments.algorithms.sorting.RadixSort;
-import nl.han.adp.assignments.algorithms.sorting.RadixSort;
-import nl.han.adp.assignments.algorithms.sorting.SortingAlgorithm;
 import nl.han.adp.utility.Constants;
 import nl.han.adp.utility.DataSetUtils;
-import nl.han.adp.utility.dataset.DataGenerator;
-import nl.han.adp.utility.dataset.JsonUtils;
-import nl.han.adp.utility.Measurement;
-import nl.han.adp.utility.sorting.AscendingComparator;
-import nl.han.adp.utility.sorting.DescendingComparator;
+import nl.han.adp.utility.DataGenerator;
+import nl.han.adp.utility.JsonUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

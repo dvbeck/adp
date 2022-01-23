@@ -1,4 +1,4 @@
-package nl.han.adp.utility.dataset;
+package nl.han.adp.utility;
 
 import java.util.Arrays;
 import java.util.Collections;

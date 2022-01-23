@@ -1,13 +1,11 @@
 package nl.han.adp.assignments.searching;
 
 import nl.han.adp.assignments.algorithms.searching.BinarySearch;
-import nl.han.adp.assignments.datastructures.queue.Deque;
-import nl.han.adp.assignments.datastructures.queue.IQueue;
 import nl.han.adp.utility.Constants;
 import nl.han.adp.utility.DataSetUtils;
 import nl.han.adp.utility.Measurement;
-import nl.han.adp.utility.dataset.DataGenerator;
-import nl.han.adp.utility.dataset.JsonUtils;
+import nl.han.adp.utility.DataGenerator;
+import nl.han.adp.utility.JsonUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.opentest4j.TestAbortedException;

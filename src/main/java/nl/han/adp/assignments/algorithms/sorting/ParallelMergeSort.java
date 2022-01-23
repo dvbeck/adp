@@ -1,6 +1,6 @@
 package nl.han.adp.assignments.algorithms.sorting;
 
-import nl.han.adp.utility.sorting.CompareValues;
+import nl.han.adp.utility.CompareValues;
 
 import java.util.Arrays;
 

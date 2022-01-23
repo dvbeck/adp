@@ -1,4 +1,4 @@
-package nl.han.adp.utility.sorting;
+package nl.han.adp.utility;
 
 public interface CompareValues<T extends Comparable<T>> {
     boolean keyComesBeforeValue(T key, T value);

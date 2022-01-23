@@ -1,7 +1,7 @@
 package nl.han.adp.assignments.datastructures.queue;
 
-import nl.han.adp.utility.sorting.CompareValues;
-import nl.han.adp.utility.sorting.HeapUtils;
+import nl.han.adp.utility.CompareValues;
+import nl.han.adp.utility.HeapUtils;
 
 public class PriorityQueue<T extends Comparable<T>> implements IQueue<T>{
     private final CompareValues<T> comparator;

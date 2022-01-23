@@ -1,4 +1,4 @@
-package nl.han.adp.utility.dataset;
+package nl.han.adp.utility;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.CollectionType;

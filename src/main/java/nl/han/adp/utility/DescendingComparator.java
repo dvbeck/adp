@@ -1,4 +1,4 @@
-package nl.han.adp.utility.sorting;
+package nl.han.adp.utility;
 
 public class DescendingComparator<T extends Comparable<T>> implements CompareValues<T> {
     @Override

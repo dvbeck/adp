@@ -1,8 +1,6 @@
 package nl.han.adp.utility;
 
 import nl.han.adp.assignments.algorithms.sorting.SortingAlgorithm;
-import nl.han.adp.utility.dataset.DataGenerator;
-import nl.han.adp.utility.dataset.JsonUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.junit.jupiter.api.Assertions;

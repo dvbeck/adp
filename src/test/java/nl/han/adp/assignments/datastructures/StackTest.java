@@ -1,17 +1,14 @@
 package nl.han.adp.assignments.datastructures;
 
-import nl.han.adp.assignments.datastructures.queue.IQueue;
 import nl.han.adp.assignments.datastructures.stack.IStack;
 import nl.han.adp.assignments.datastructures.stack.Stack;
 import nl.han.adp.utility.Constants;
 import nl.han.adp.utility.DataSetUtils;
 import nl.han.adp.utility.Measurement;
-import nl.han.adp.utility.dataset.JsonUtils;
+import nl.han.adp.utility.JsonUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.opentest4j.TestAbortedException;
-
-import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 

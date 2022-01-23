@@ -1,4 +1,4 @@
-package nl.han.adp.utility.sorting;
+package nl.han.adp.utility;
 
 public class HeapUtils {
     public static <T extends Comparable<T>> void heapify(T[] array, int nodeIndex, int heapSize, CompareValues<T> comparator) {
