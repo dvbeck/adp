@@ -1,27 +1,0 @@
-
-9
-java:S1116"Remove this empty statement.(“ÿ•£8¬’»æ/
-Z	java:S106 "9Replace this use of System.out or System.err by a logger.(¿³‘ùÿÿÿÿ8¶’»æ/
-o	java:S100}"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ú÷¾üÿÿÿÿ8¾’»æ/
-k	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôŸÑ8Á’»æ/
-p	java:S100£"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ÏÙ°ıÿÿÿÿ8Ã’»æ/
-k	java:S100É"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÜÊ¤8É’»æ/
-p	java:S100Ú"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·äµÿøÿÿÿÿ8Ê’»æ/
-J
-java:S1125º"'Remove the unnecessary boolean literal.(öìˆ–ıÿÿÿÿ8Õ’»æ/
-N
-java:S1168º"+Return an empty collection instead of null.(öìˆ–ıÿÿÿÿ8Õ’»æ/
-w
-java:S1210ø"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ËÍ¬…8Ø’»æ/
-?
-java:S1643È"Use a StringBuilder instead.(Øº­ˆûÿÿÿÿ8æ’»æ/
-:
-java:S1643Ö"Use a StringBuilder instead.(æ²òÕ8æ’»æ/
-:
-java:S1643”"Use a StringBuilder instead.(ö…Œ¥8æ’»æ/
-9
-java:S1643–"Use a StringBuilder instead.(ŸÇV8ç’»æ/
-
-java:S1488»"\Immediately return this expression instead of assigning it to the temporary variable "path".(ŒûŸüÿÿÿÿ8ç’»æ/
-r
-java:S2259»"O"NullPointerException" will be thrown when invoking method "getShortestPath()".(ŒûŸüÿÿÿÿ8ô“»æ/
