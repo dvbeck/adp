@@ -8,6 +8,7 @@ import nl.han.adp.assignments.datastructures.list.IList;
 import nl.han.adp.utility.Constants;
 import nl.han.adp.utility.DataSetUtils;
 import nl.han.adp.utility.Measurement;
+import nl.han.adp.utility.dataset.DataGenerator;
 import nl.han.adp.utility.dataset.JsonUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -156,14 +157,12 @@ public class AVLTest {
     @Test
     void testAvl() {
         BinaryTree<Integer> tree = new AVLTree<>();
-        Integer[] data = {10, 1, 2, 3, 4, 11, 3, 12, 2, 13, 6, 14, 5, 3};
+        Integer[] data = DataGenerator.generateIntegerDataset(1000);
         for (Integer integer : data) {
             tree.insert(integer);
         }
-
-
-        tree.delete(11);
-        tree.delete(6);
+        tree.delete(data[50]);
+        tree.delete(data[60]);
         System.out.println("test");
     }
 

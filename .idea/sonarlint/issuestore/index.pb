@@ -27,8 +27,6 @@ n
 >src/main/java/nl/han/adp/datastructures/list/DynamicArray.java,5\5\55bb18bdefb1ea4c5a14cd30bd497a044ff4c98b
 h
 8src/main/java/nl/han/adp/datastructures/stack/Stack.java,d\f\df8bde9ad51bbe9d260076789905c4892fc0e1ec
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 j
