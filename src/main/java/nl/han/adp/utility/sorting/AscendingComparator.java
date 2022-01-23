@@ -7,7 +7,7 @@ public class AscendingComparator<T extends Comparable<T>> implements CompareValu
     }
 
     @Override
-    public boolean keyComesBeforeValueOrAreEqual(T key, T value) {
+    public boolean keyComesBeforeValueOrTie(T key, T value) {
         return value == null || key != null && (value.compareTo(key) >= 0);
     }
 }
