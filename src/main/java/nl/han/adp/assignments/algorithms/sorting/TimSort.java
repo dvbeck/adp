@@ -51,7 +51,6 @@ public class TimSort<T extends Comparable<T>> implements SortingAlgorithm<T> {
         }
     }
 
-    //todo herzien want if leftNotEmpty(...) lijkt niet nodig
     private void merge(T[] array, int begin, int mid, int end) {
         T[] leftArray = Arrays.copyOfRange(array, begin, mid + 1);
         T[] rightArray = Arrays.copyOfRange(array, mid + 1, end + 1);
