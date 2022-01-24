@@ -52,7 +52,7 @@ public class GraphImpl<T> implements Graph<T> {
         if (weight < 1) throw new IllegalArgumentException("Weight does not satisfy conditions (weight > 1)");
         if (fromNode >= nodeArray.length) throw new IllegalArgumentException("Node index out of bounds");
 
-        find(fromNode, toNode).ifPresentOrElse(currentEdge -> currentEdge.next.weight = weight, () -> {
+        find(fromNode, toNode).ifPresentOrElse(currentEdge -> currentEdge.weight = weight, () -> {
             Edge currentEdge = nodeArray[fromNode];
             currentEdge.next = new Edge(toNode, weight, currentEdge, currentEdge.next);
             if (currentEdge.next.next != null) {
