@@ -52,14 +52,16 @@ public class GraphImpl<T> implements Graph<T> {
         if (weight < 1) throw new IllegalArgumentException("Weight does not satisfy conditions (weight > 1)");
         if (fromNode >= nodeArray.length) throw new IllegalArgumentException("Node index out of bounds");
 
-        find(fromNode, toNode).ifPresentOrElse(currentEdge -> currentEdge.weight = weight, () -> {
-            Edge currentEdge = nodeArray[fromNode];
-            currentEdge.next = new Edge(toNode, weight, currentEdge, currentEdge.next);
-            if (currentEdge.next.next != null) {
-                currentEdge.next.next.prev = currentEdge.next;
-            }
-            numEdge++;
-        });
+        find(fromNode, toNode).ifPresentOrElse(currentEdge -> currentEdge.weight = weight, () -> addNewEdge(fromNode, toNode, weight));
+    }
+
+    private void addNewEdge(int fromNode, int toNode, int weight) {
+        Edge currentEdge = nodeArray[fromNode];
+        currentEdge.next = new Edge(toNode, weight, currentEdge, currentEdge.next);
+        if (currentEdge.next.next != null) {
+            currentEdge.next.next.prev = currentEdge.next;
+        }
+        numEdge++;
     }
 
 
@@ -104,7 +106,7 @@ public class GraphImpl<T> implements Graph<T> {
     @Override
     public List<Integer> neighbors(int node) {
         List<Integer> neighbors = new ArrayList<>();
-        if(node >= nodeArray.length) return neighbors;
+        if (node >= nodeArray.length) return neighbors;
 
         for (Edge currentNode = nodeArray[node].next; currentNode != null; currentNode = currentNode.next) {
             neighbors.add(currentNode.vertex);
