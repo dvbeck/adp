@@ -13,6 +13,8 @@ public class GraphTest {
         Graph<Integer> graph = new GraphImpl<>();
         graph.addEdge(1, 2, 8);
         graph.addEdge(1, 2, 9);
+        graph.addEdge(1, 3, 9);
+        graph.removeEdge(1, 3);
         graph.getValue(500);
         System.out.println(graph.getWeight(1, 2));
     }

@@ -88,9 +88,9 @@ public class GraphImpl<T> implements Graph<T> {
     @Override
     public void removeEdge(int fromNode, int toNode) {
         find(fromNode, toNode).ifPresent(curr -> {
-            curr.next = curr.next.next;
+            curr.prev.next = curr.next;
             if (curr.next != null) {
-                curr.next.prev = curr;
+                curr.next.prev = curr.prev;
             }
             numEdge--;
         });
